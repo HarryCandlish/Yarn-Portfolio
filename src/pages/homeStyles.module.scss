@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  color: #24305e;
+}
+
+.image {
+  width: 100%;
+  height: 400px;
+}
+
+.title {
+  color: #24305e;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 40px;
+}
+
+.description {
+  position: absolute;
+  width: 40%;
+  padding-left: 10%;
+  top: 11.5rem;
+  margin: 0;
+}
+
+.projects {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: #000000 1px;
+}
+.project {
+  align-items: center;
+  max-width: 25%;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  margin: 1rem;
+  box-shadow: 0.3px 0.3px 1px 0.3px;
+
+  a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-between;
+    align-items: center;
+
+    border-radius: 2%;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.5px;
+  }
+}
+.images {
+  width: 100%;
+  height: 200px;
+}
+
+.projectTitle {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.images1 {
+  height: 200px;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.finalP {
+  width: 30%;
+  position: relative;
+  left: 30%;
+  margin: 0;
+  padding: 0;
+  top: -260px;
+}
+
+.contact {
+  width: 30%;
+  position: relative;
+  left: 14rem;
+  margin: 0;
+  padding: 0;
+  top: -200px;
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: none;
+  color: #24305e;
+}
+
+hr {
+  width: 50%;
+}
+
+.linkIcon {
+  width: 40px;
+  position: relative;
+  left: 19rem;
+  top: -12rem;
+}
+
+.gitIcon {
+  width: 40px;
+  position: relative;
+  left: 13.5rem;
+  top: -12rem;
+}
+
+.lists {
+  text-align: center;
+}
+
+.meetups {
+  width: 100%;
+  border: solid black 1px;
+}
+
+.reads {
+  width: 100%;
+  height: 200px;
+  border: solid black 1px;
+}
+
+.mental {
+  width: 100%;
+  height: 200px;
+  border: solid black 1px;
+}
+
+.mental2 {
+  width: 100%;
+  height: 300px;
+  border: solid black 1px;
+}
