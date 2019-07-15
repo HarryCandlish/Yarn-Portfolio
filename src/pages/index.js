@@ -23,11 +23,7 @@ const IndexPage = () => {
         <ol className={homeStyles.projects}>
           <li className={homeStyles.project}>
             <h2>CAPITAL MEET-UPS</h2>
-            <img
-              className={homeStyles.meetups}
-              alt="meetups"
-              src="meetsups.JPG"
-            />
+
             <p>
               the final project for Enspiral Dev Academy. The class was
               segmented into groups, and each group had a week to build a
@@ -60,11 +56,7 @@ const IndexPage = () => {
           </li>
           <li className={homeStyles.project}>
             <h2>HAIRY-READS</h2>
-            <img
-              className={homeStyles.reads}
-              alt="reads"
-              src="hairyreads.jpg"
-            />
+
             <p>
               Worked on an individual project during Enspiral. The project was
               completed outside of class hours and was fundamental in helping us
@@ -101,16 +93,7 @@ const IndexPage = () => {
           </li>
           <li className={homeStyles.project}>
             <h2>ALL IS WELL</h2>
-            <img
-              className={homeStyles.mental}
-              alt="health"
-              src="alliswell.jpg"
-            />
-            <img
-              className={homeStyles.mental2}
-              alt="health"
-              src="alliswell2.jpg"
-            />
+
             <p>
               A business idea; selling branded clothing to promote mental health
               awareness in Wellington. Front-end is built using React, Chart-JS,
@@ -145,12 +128,7 @@ const IndexPage = () => {
         <h1 className={homeStyles.projectTitle}>EXPERIENCE</h1>
         <ol className={homeStyles.projects}>
           <li className={homeStyles.project}>
-            <h2>ENSPIRAL DEV ACADEMY</h2>
-            <img
-              className={homeStyles.mental}
-              alt="dev"
-              src="dev-academy.png"
-            />
+            <h2>ENSPIRAL DEV ACADEMY</h2>=
             <p>
               The Enspiral programme involves over 1000 hours of coding
               experience, and relies on its students to be self-directed,
@@ -174,11 +152,7 @@ const IndexPage = () => {
           </li>
           <li className={homeStyles.project}>
             <h2>NEW ZEALAND RED-CROSS</h2>
-            <img
-              className={homeStyles.mental}
-              alt="redcross"
-              src="redcross.jpg"
-            />
+
             <p>
               Volunteering had a significant influence on how it is I view the
               world, it helped me discover the rewards associated with helping
@@ -201,7 +175,7 @@ const IndexPage = () => {
           </li>
           <li className={homeStyles.project}>
             <h2>HOSPITALITY : WELLINGTON HOSPITALITY GROUP</h2>
-            <img className={homeStyles.mental} alt="hospo" src="hospo.jpg" />
+
             <p>
               Customer service skills are important in any industry, and through
               my time working in hospitality I’ve learnt how to communicate with
